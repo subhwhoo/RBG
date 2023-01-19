@@ -1,9 +1,3 @@
-function changeColor() {
-    document.body.style.backgroundColor =
-        'rgb(' + Math.round(Math.random() * 255) +
-        ',' + Math.round(Math.random() * 255) +
-        ',' + Math.round(Math.random() * 255) + ')'
-}
 function changeColor1() {
     document.getElementById('p1').style.backgroundColor =
         'rgb(' + Math.round(Math.random() * 255) +
