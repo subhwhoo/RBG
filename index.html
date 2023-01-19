@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Color Generator</title>
   </head>
   <body>
-    <button onclick="changeColor()">Click Me!</button>
-
+    <button
+      onclick="changeColor(),changeColor1(),changeColor2(),changeColor3(),changeColor4()"
+    >
+      Click Me!
+    </button>
+    <div class="screen">
+      <div style="background-color: aqua" class="part" id="p1"></div>
+      <div style="background-color: yellow" class="part" id="p2"></div>
+      <div style="background-color: green" class="part" id="p3"></div>
+      <div style="background-color: black" class="part" id="p4"></div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
